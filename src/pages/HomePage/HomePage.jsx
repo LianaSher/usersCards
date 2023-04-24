@@ -1,5 +1,5 @@
 import { HomeContainer } from '../HomePage/HomePage.styled';
-import logoGoIt from '../../images/logoGoIt.svg';
+
 export const HomePage = () => {
   return (
     <HomeContainer>
