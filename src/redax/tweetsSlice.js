@@ -35,7 +35,7 @@ export const tweetsSlice = createSlice({
         state.loading = true;
       })
       .addCase(updateUser.fulfilled, (state, { payload }) => {
-        state.isLoading = false;
+        state.loading = false;
         state.error = null;
         state.users = state.users.map(user => {
           if (user.id === payload.id) {
