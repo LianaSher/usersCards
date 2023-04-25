@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/usersCards/static/css/main.21a62261.css",
-    "main.js": "/usersCards/static/js/main.d61ca50c.js",
+    "main.js": "/usersCards/static/js/main.811ca740.js",
     "static/media/picture.png": "/usersCards/static/media/picture.38ea3189a2c780f4bbbf.png",
     "static/media/logoGoIt.svg": "/usersCards/static/media/logoGoIt.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/usersCards/index.html",
     "main.21a62261.css.map": "/usersCards/static/css/main.21a62261.css.map",
-    "main.d61ca50c.js.map": "/usersCards/static/js/main.d61ca50c.js.map"
+    "main.811ca740.js.map": "/usersCards/static/js/main.811ca740.js.map"
   },
   "entrypoints": [
     "static/css/main.21a62261.css",
-    "static/js/main.d61ca50c.js"
+    "static/js/main.811ca740.js"
   ]
 }
