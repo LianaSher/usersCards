@@ -18,6 +18,7 @@ export const TweetCard = ({ id, user, avatar, tweets, followers }) => {
   const [following, setFollowing] = useLocalStorage(`${id}`, false);
 
   const dispatch = useDispatch();
+
   const onClick = () => {
     !following ? setFollowing(true) : setFollowing(false);
     dispatch(updateUser(dataForUpdate()));

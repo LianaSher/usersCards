@@ -26,3 +26,7 @@ export const BtnLoadMore = styled.button`
   margin-left: 40px;
   margin-top: 40px;
 `;
+export const Wrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;

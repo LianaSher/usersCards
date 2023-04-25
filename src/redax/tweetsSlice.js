@@ -20,7 +20,6 @@ export const tweetsSlice = createSlice({
         state.loading = true;
       })
       .addCase(getUsers.fulfilled, (state, { payload }) => {
-        console.log(payload);
         state.loading = false;
         state.error = null;
         state.users =

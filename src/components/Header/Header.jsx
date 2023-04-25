@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import { Nav, NavLink } from '../Header/Header.styled';
 import { useDispatch } from 'react-redux';
-import { addPage } from 'redax/tweetsSlise';
+import { addPage } from 'redax/tweetsSlice';
 
 export const Header = () => {
   const dispatch = useDispatch();
